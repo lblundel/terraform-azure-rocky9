@@ -42,7 +42,7 @@ variable "tags" {
   default = {}
 }
 
-// add a variable vnet_subnet_id
+# add a variable vnet_subnet_id
 variable "vnet_subnet_id" {
   description = "The ID of the subnet to deploy the VM into"
   type        = string

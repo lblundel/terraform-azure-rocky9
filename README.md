@@ -10,6 +10,7 @@ This Terraform module deploys a Rocky Linux 9 virtual machine (VM) on Microsoft 
 - Generates and stores SSH keys locally.
 - Enables Azure DevTest Lab VM shutdown schedule with email notifications.
 - Supports custom tags for all resources.
+- Integrates with Ansible for post-provisioning automation (optional).
 
 ## Usage
 
@@ -53,6 +54,7 @@ module "rocky9" {
 
 - Terraform >= 1.9
 - AzureRM provider >= 3.74
+- Ansible provider (optional, for automation)
 
 ## License
 
